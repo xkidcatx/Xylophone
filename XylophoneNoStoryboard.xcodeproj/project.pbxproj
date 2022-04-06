@@ -8,22 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		1A49282F27FCEBB50090E8D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A49282E27FCEBB50090E8D5 /* AppDelegate.swift */; };
-		1A49283127FCEBB50090E8D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A49283027FCEBB50090E8D5 /* SceneDelegate.swift */; };
 		1A49283327FCEBB50090E8D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A49283227FCEBB50090E8D5 /* ViewController.swift */; };
-		1A49283627FCEBB50090E8D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A49283427FCEBB50090E8D5 /* Main.storyboard */; };
 		1A49283827FCEBB60090E8D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A49283727FCEBB60090E8D5 /* Assets.xcassets */; };
 		1A49283B27FCEBB60090E8D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A49283927FCEBB60090E8D5 /* LaunchScreen.storyboard */; };
+		1A58BE4F27FCF84A00CD7136 /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A58BE4827FCF84A00CD7136 /* A.wav */; };
+		1A58BE5027FCF84A00CD7136 /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A58BE4927FCF84A00CD7136 /* C.wav */; };
+		1A58BE5127FCF84A00CD7136 /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A58BE4A27FCF84A00CD7136 /* B.wav */; };
+		1A58BE5227FCF84A00CD7136 /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A58BE4B27FCF84A00CD7136 /* F.wav */; };
+		1A58BE5327FCF84A00CD7136 /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A58BE4C27FCF84A00CD7136 /* G.wav */; };
+		1A58BE5427FCF84A00CD7136 /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A58BE4D27FCF84A00CD7136 /* E.wav */; };
+		1A58BE5527FCF84A00CD7136 /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1A58BE4E27FCF84A00CD7136 /* D.wav */; };
+		BD2AF264C70283A0B914F715 /* Pods_XylophoneNoStoryboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48331C8399D9FE0405A79931 /* Pods_XylophoneNoStoryboard.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1A49282B27FCEBB50090E8D5 /* XylophoneNoStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XylophoneNoStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A49282E27FCEBB50090E8D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1A49283027FCEBB50090E8D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1A49283227FCEBB50090E8D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1A49283527FCEBB50090E8D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A49283727FCEBB60090E8D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A49283A27FCEBB60090E8D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A49283C27FCEBB60090E8D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A58BE4827FCF84A00CD7136 /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
+		1A58BE4927FCF84A00CD7136 /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = "<group>"; };
+		1A58BE4A27FCF84A00CD7136 /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
+		1A58BE4B27FCF84A00CD7136 /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = F.wav; sourceTree = "<group>"; };
+		1A58BE4C27FCF84A00CD7136 /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
+		1A58BE4D27FCF84A00CD7136 /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
+		1A58BE4E27FCF84A00CD7136 /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
+		314F7974E9C2A051BDACA449 /* Pods-XylophoneNoStoryboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XylophoneNoStoryboard.debug.xcconfig"; path = "Target Support Files/Pods-XylophoneNoStoryboard/Pods-XylophoneNoStoryboard.debug.xcconfig"; sourceTree = "<group>"; };
+		48331C8399D9FE0405A79931 /* Pods_XylophoneNoStoryboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XylophoneNoStoryboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3BE4D8C4DB0C81BF0E98C14 /* Pods-XylophoneNoStoryboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XylophoneNoStoryboard.release.xcconfig"; path = "Target Support Files/Pods-XylophoneNoStoryboard/Pods-XylophoneNoStoryboard.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD2AF264C70283A0B914F715 /* Pods_XylophoneNoStoryboard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,8 @@
 			children = (
 				1A49282D27FCEBB50090E8D5 /* XylophoneNoStoryboard */,
 				1A49282C27FCEBB50090E8D5 /* Products */,
+				A26C6C7F3588525F622CB990 /* Pods */,
+				C4FF266977B4C4D41806497E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +74,45 @@
 			isa = PBXGroup;
 			children = (
 				1A49282E27FCEBB50090E8D5 /* AppDelegate.swift */,
-				1A49283027FCEBB50090E8D5 /* SceneDelegate.swift */,
 				1A49283227FCEBB50090E8D5 /* ViewController.swift */,
-				1A49283427FCEBB50090E8D5 /* Main.storyboard */,
 				1A49283727FCEBB60090E8D5 /* Assets.xcassets */,
 				1A49283927FCEBB60090E8D5 /* LaunchScreen.storyboard */,
 				1A49283C27FCEBB60090E8D5 /* Info.plist */,
+				1A58BE4727FCF84A00CD7136 /* Sounds */,
 			);
 			path = XylophoneNoStoryboard;
+			sourceTree = "<group>";
+		};
+		1A58BE4727FCF84A00CD7136 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				1A58BE4827FCF84A00CD7136 /* A.wav */,
+				1A58BE4927FCF84A00CD7136 /* C.wav */,
+				1A58BE4A27FCF84A00CD7136 /* B.wav */,
+				1A58BE4B27FCF84A00CD7136 /* F.wav */,
+				1A58BE4C27FCF84A00CD7136 /* G.wav */,
+				1A58BE4D27FCF84A00CD7136 /* E.wav */,
+				1A58BE4E27FCF84A00CD7136 /* D.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		A26C6C7F3588525F622CB990 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				314F7974E9C2A051BDACA449 /* Pods-XylophoneNoStoryboard.debug.xcconfig */,
+				B3BE4D8C4DB0C81BF0E98C14 /* Pods-XylophoneNoStoryboard.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C4FF266977B4C4D41806497E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48331C8399D9FE0405A79931 /* Pods_XylophoneNoStoryboard.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A49283F27FCEBB60090E8D5 /* Build configuration list for PBXNativeTarget "XylophoneNoStoryboard" */;
 			buildPhases = (
+				53DA39141266C8E463BECFB8 /* [CP] Check Pods Manifest.lock */,
 				1A49282727FCEBB50090E8D5 /* Sources */,
 				1A49282827FCEBB50090E8D5 /* Frameworks */,
 				1A49282927FCEBB50090E8D5 /* Resources */,
+				134D2C3290EDF62F16CD32EB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,13 +175,61 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A58BE5527FCF84A00CD7136 /* D.wav in Resources */,
+				1A58BE5027FCF84A00CD7136 /* C.wav in Resources */,
+				1A58BE5127FCF84A00CD7136 /* B.wav in Resources */,
+				1A58BE4F27FCF84A00CD7136 /* A.wav in Resources */,
+				1A58BE5227FCF84A00CD7136 /* F.wav in Resources */,
+				1A58BE5327FCF84A00CD7136 /* G.wav in Resources */,
 				1A49283B27FCEBB60090E8D5 /* LaunchScreen.storyboard in Resources */,
+				1A58BE5427FCF84A00CD7136 /* E.wav in Resources */,
 				1A49283827FCEBB60090E8D5 /* Assets.xcassets in Resources */,
-				1A49283627FCEBB50090E8D5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		134D2C3290EDF62F16CD32EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XylophoneNoStoryboard/Pods-XylophoneNoStoryboard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XylophoneNoStoryboard/Pods-XylophoneNoStoryboard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XylophoneNoStoryboard/Pods-XylophoneNoStoryboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53DA39141266C8E463BECFB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XylophoneNoStoryboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1A49282727FCEBB50090E8D5 /* Sources */ = {
@@ -140,21 +238,12 @@
 			files = (
 				1A49283327FCEBB50090E8D5 /* ViewController.swift in Sources */,
 				1A49282F27FCEBB50090E8D5 /* AppDelegate.swift in Sources */,
-				1A49283127FCEBB50090E8D5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1A49283427FCEBB50090E8D5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1A49283527FCEBB50090E8D5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1A49283927FCEBB60090E8D5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +305,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +359,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +371,7 @@
 		};
 		1A49284027FCEBB60090E8D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 314F7974E9C2A051BDACA449 /* Pods-XylophoneNoStoryboard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +382,7 @@
 				INFOPLIST_FILE = XylophoneNoStoryboard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +400,7 @@
 		};
 		1A49284127FCEBB60090E8D5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3BE4D8C4DB0C81BF0E98C14 /* Pods-XylophoneNoStoryboard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +411,7 @@
 				INFOPLIST_FILE = XylophoneNoStoryboard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
