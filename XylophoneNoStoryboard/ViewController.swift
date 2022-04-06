@@ -37,7 +37,7 @@ class ViewController: UIViewController {
             button.setTitle(keys[i], for: .normal)
             button.titleLabel?.font = UIFont.boldSystemFont(ofSize: 40)
             button.backgroundColor = UIColor.init(named: keys[i])
-            button.layer.cornerRadius = 20
+            button.layer.cornerRadius = 30
             button.addTarget(self, action: #selector(keyTapped), for: .touchUpInside)
             buttons.append(button)
             view.addSubview(button)
@@ -72,7 +72,8 @@ class ViewController: UIViewController {
             make.centerX.centerY.equalToSuperview()
             make.top.equalTo(50)
             make.bottom.equalTo(-50)
-            make.left.right.equalTo(5)
+            make.left.equalTo(5)
+            make.right.equalTo(-5)
         }
         for i in buttons.indices {
             let button = buttons[i]
@@ -106,4 +107,3 @@ struct FlowProvider: PreviewProvider {
     }
     
 }
-
